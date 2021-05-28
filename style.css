@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    min-height: 7vh;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .h1 , nav ul {
+    font-size: 1.5rem;
+
+}
+
+nav .h1 {
+    margin-left: 540px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: fantasy;
+    font-size: 400%;
+    background-color: #e5767f;
+    color: white;
+}
+nav .h1:hover {
+    box-shadow: #e5767f;
+    background-color: white;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav a, nav ul {
+    color: black;
+    margin-left: 60px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .welcome-home {
+    font-size: 5rem;
+    font-family: fantasy;
+    color: white;
+    cursor: default;
+}
+
+.home {
+    background: linear-gradient(to right top,#d3959b , #bfe6ba);
+
+}
+
+.members {
+    background: linear-gradient(to right top,#EF629F ,#EECDA3);
+}
+
+.about {
+    background: linear-gradient(to right top,#c9ffbf ,#ffafbd);
+}
+
+.bubble {
+    position: absolute;
+    z-index: -2;
+    transition: all 0.5s;
+    background: linear-gradient(to right top,#d3959b , #bfe6ba);
+}
+
+/* contacts */
+
+.about {
+    display: flex;
+    list-style: none;
+}
+
+.about div {
+    display: flex;
+    margin-top: 280px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    width: 34%;
+    background-color:  #e57676;
+    object-fit: fill;
+}
+
+.contacts h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e57676;
+    background-color:  white;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.contacts ul li a {
+    color: white;
+    margin-left: 40px;
+    float: right;
+    position: inherit;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    transition: ease 0.5s;
+    margin-right: -20px;
+}
+
+.contacts ul {
+    list-style-type: none;
+}
+
+.contacts ul li a:hover {
+    color: #e57676;
+    background-color: white;
+}
+
+/*-------------- Cover ---------------*/
+.contact-members {
+    float: right;
+    justify-self: center;
+    height: 500px;
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-bottom: -20px;
+}
